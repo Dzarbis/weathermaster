@@ -10,13 +10,44 @@
 </head>
 <body>
     <header class="container-fluid">
-        <div class="card">
-            <h1 class="card-body text-center bg-info text-white">Weather Master</h1>
+        <div>
+            <h1 class="card-body text-center bg-info text-white rounded title">Weather Master</h1>
         </div>
     </header>
 
     <main>
-        
+        <div class="row">
+            <div class="col">
+                <div class="card-body text-center">
+                    <div class="card">
+                        <h3 class="card-header card-dark text-center">Find Your Weather</h3>
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="citySearch" placeholder="Enter City">
+                            <button class="btn input-group-append bg-success text-white" type="button" onclick="search()">Search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card-body">
+                    <div class="card" id="rightNow">
+                        <h3 class="card-header card-dark text-center">Current Weather</h3>
+                        <h4 class="text-center" id="location"></h4>
+                        <div id="current"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card-body">
+                    <div class="card fiveDay">
+                        <h3 class="card-header card-dark text-center">5 Day Forecast</h3>
+                        <div class="row">
+                            <ul class="col" id="fiveDayList"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
