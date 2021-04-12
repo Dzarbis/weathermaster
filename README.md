@@ -7,11 +7,11 @@ Check weather by city, including 5-day forecast
 https://dzarbis.github.io/weathermaster/
 
 ## Built With
-*HTML
-*JavaScript
-*CSS
-*OneCall API
-*Bootstrap
+* HTML
+* JavaScript
+* CSS
+* OneCall API
+* Bootstrap
 
 ## Screenshot
 ![screenshot](./assets/images/screenshot.png)
