@@ -1,3 +1,8 @@
 .title {
     font-family: fantasy;
 }
+
+.searched {
+    list-style-type: none;
+    text-align: left;
+}
